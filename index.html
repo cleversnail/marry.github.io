@@ -222,6 +222,7 @@
 
     let scrollPosition = window.pageYOffset;
     let timer;
+    let isAutoScrolling = false;
     function autoScroll() {
       if (scrollPosition < document.body.scrollHeight - window.innerHeight) {
         scrollPosition += 1; // 每次滚动的距离
@@ -230,33 +231,38 @@
       }
     }
 
+    // 监听手动滚动
+    window.addEventListener('scroll', () => {
+      if (!isAutoScrolling) {
+        scrollPosition = window.pageYOffset;
+      }
+    });
+
 
     let audio = document.getElementById('audio')
     let flag = false
-    window.addEventListener('click', () => {
-      if (!flag) {
-        autoScroll()
-        audio.play()
-      } else {
-        clearTimeout(timer)
-        audio.pause()
-      }
-      flag = !flag
+    window.addEventListener('click', toggleScroll);
 
-    });
-  
     window.addEventListener('touchstart', (e) => {
       e.preventDefault()
-      if (!flag) {
-        autoScroll()
-        audio.play()
-      } else {
-        clearTimeout(timer)
-        audio.pause()
-      }
-      flag = !flag
+      toggleScroll()
 
     });
+
+
+
+    function toggleScroll() {
+      if (!flag) {
+        isAutoScrolling = true;
+        autoScroll();
+        audio.play();
+      } else {
+        isAutoScrolling = false;
+        clearTimeout(timer);
+        audio.pause();
+      }
+      flag = !flag;
+    }
   </script>
 </body>
 
