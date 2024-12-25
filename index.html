@@ -244,6 +244,19 @@
       flag = !flag
 
     });
+  
+    window.addEventListener('touchstart', (e) => {
+      e.preventDefault()
+      if (!flag) {
+        autoScroll()
+        audio.play()
+      } else {
+        clearTimeout(timer)
+        audio.pause()
+      }
+      flag = !flag
+
+    });
   </script>
 </body>
 
