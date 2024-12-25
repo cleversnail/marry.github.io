@@ -223,6 +223,7 @@
     let scrollPosition = window.pageYOffset;
     let timer;
     let isAutoScrolling = false;
+    let isScrolling = false;
     function autoScroll() {
       if (scrollPosition < document.body.scrollHeight - window.innerHeight) {
         scrollPosition += 1; // 每次滚动的距离
@@ -235,6 +236,18 @@
     window.addEventListener('scroll', () => {
       if (!isAutoScrolling) {
         scrollPosition = window.pageYOffset;
+        
+        // 清除之前的定时器
+        clearTimeout(isScrolling);
+        
+        // 设置新的定时器
+        isScrolling = setTimeout(() => {
+          // 滚动停止后，如果当前是播放状态，则继续自动滚动
+          if (!flag) {
+            isAutoScrolling = true;
+            autoScroll();
+          }
+        }, 150); // 150ms 后判断滚动是否停止
       }
     });
 
@@ -242,11 +255,9 @@
     let audio = document.getElementById('audio')
     let flag = false
     window.addEventListener('click', toggleScroll);
-
     window.addEventListener('touchstart', (e) => {
       e.preventDefault()
       toggleScroll()
-
     });
 
 
