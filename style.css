@@ -1,0 +1,576 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 75px;
+  background-color: rgb(167, 35, 35);
+}
+
+body {
+  font-size: 20px;
+}
+
+.page {
+  max-width: 5rem;
+  /* max-height: 10rem; */
+  background-color: rgb(167, 35, 35);
+  position: relative;
+  margin: 0 auto;
+}
+
+.opacity_02 {
+  opacity: 0.2;
+}
+
+.zIndex10 {
+  z-index: 10;
+}
+
+.zIndex20 {
+  z-index: 20;
+}
+
+.item {
+  height: 10rem;
+}
+
+.title {
+  position: absolute;
+  top: 0.406667rem;
+  left: 0.513333rem;
+  width: 3.97333rem;
+  height: 0.694009rem;
+}
+
+.title svg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.item1_pic1 {
+  position: absolute;
+  top: 1.4rem;
+  left: 0.6rem;
+  width: 3.8rem;
+  height: 5.06289rem;
+}
+
+.item1_pic1 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0.04rem solid rgb(246, 201, 160);
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.bg1 {
+  top: -0.52rem;
+  left: 0rem;
+  width: 5rem;
+  height: 1.15333rem;
+  display: revert;
+  position: absolute;
+}
+
+.bg1_bg {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://qnm.hunliji.com/FhbqiuaxOwHyKDDZGO4AQifqvOSb);
+  display: block;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg2 {
+  position: absolute;
+  top: 0.933333rem;
+  left: 0rem;
+  width: 5rem;
+  height: 0.906667rem;
+}
+
+.bg2_bg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://qnm.hunliji.com/FqzDOhkV7lScDOd5NgEy1xnEic9U);
+}
+
+.item1_pic2 {
+  position: absolute;
+  top: 4.85333rem;
+  left: 1.43333rem;
+  width: 1.97333rem;
+  height: 1.37953rem;
+}
+
+.bg3 {
+  position: absolute;
+  top: 2.18rem;
+  left: 0rem;
+  width: 5rem;
+  height: 0.98rem;
+}
+
+.bg3_bg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://qnm.hunliji.com/FnSk56s6mGDq_BrcOjvzl0ZiSyJg);
+}
+
+.bg4 {
+  position: absolute;
+  top: 4.96667rem;
+  left: -0.0133333rem;
+  width: 5.02667rem;
+  height: 1.18004rem;
+  display: revert;
+}
+
+.bg4_bg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://qnm.hunliji.com/FuLd_swjwyJdlvMgypDjh89Wmtqf);
+}
+
+.bg5 {
+  position: absolute;
+  top: 6.53333rem;
+  left: 0rem;
+  width: 5rem;
+  height: 1.15333rem;
+  display: revert;
+}
+
+.bg5_bg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://qnm.hunliji.com/FhbqiuaxOwHyKDDZGO4AQifqvOSb);
+}
+
+.user {
+  position: absolute;
+  top: 6.88rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 0.266667rem;
+  opacity: 1;
+  color: rgb(246, 201, 160);
+}
+
+.user .boy {}
+
+.user .and {
+  width: 0.586667rem;
+  height: 0.202798rem;
+  margin: 0 0.133333rem;
+}
+
+.user .girl {}
+
+.user-bottom {
+  position: absolute;
+  top: 7.22667rem;
+  left: -0.493333rem;
+  width: 5.98667rem;
+  background-color: transparent;
+  color: rgb(246, 201, 160);
+  letter-spacing: 0.04rem;
+  transform: scale(0.58);
+  text-align: center;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  writing-mode: unset;
+  font-size: 0.16rem;
+  font-family: Cinzel-Regular, PingFangSC-Regular, system-ui, "Segoe UI", Roboto, Emoji, Oxygen, Arial, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", -apple-system, "Microsoft Himalaya Local";
+  line-height: 1.6;
+  opacity: 1;
+}
+
+.user-bottom-bg {
+  position: absolute;
+  top: 7.88303rem;
+  left: 0rem;
+  width: 5rem;
+  height: 2.06667rem;
+}
+
+
+.item2 .text {
+  width: 4.33333rem;
+  margin: 0 auto;
+  font-size: 0.266667rem;
+  color: rgb(246, 201, 160);
+  background-color: transparent;
+  letter-spacing: 0rem;
+  text-align: center;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  writing-mode: unset;
+  font-size: 0.173333rem;
+  font-family: FZLTHJW--GB1-0, PingFangSC-Regular, system-ui, "Segoe UI", Roboto, Emoji, Oxygen, Arial, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", -apple-system, "Microsoft Himalaya Local";
+  line-height: 3.4;
+  opacity: 1;
+  margin-top: -1rem;
+}
+
+.item2 .date {
+  margin: 0.2rem 0;
+}
+
+.item2 .date p {
+  text-align: center;
+  color: rgb(246, 201, 160);
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  writing-mode: unset;
+  font-size: 0.22rem;
+  opacity: 1;
+  margin-top: 0.1rem;
+  font-family: serif;
+}
+
+.item2 .pic {
+  margin-top: 0.5rem;
+}
+
+.item2 .pic .img {
+  position: absolute;
+  top: 14.6655rem;
+  left: 0.986667rem;
+  width: 3.02667rem;
+  height: 4.28079rem;
+}
+
+.item2 .pic .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item3 .bg {
+  position: absolute;
+  top: 19.3988rem;
+  left: 0.346667rem;
+  width: 4.30667rem;
+  height: 0.993404rem;
+  opacity: 0.3;
+  display: block;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://qnm.hunliji.com/FhbqiuaxOwHyKDDZGO4AQifqvOSb);
+}
+
+.item3 .pic1 {
+  position: absolute;
+  top: 20.7273rem;
+  left: 1.40667rem;
+  width: 3.28rem;
+  height: 2.18667rem;
+}
+
+.item3 .pic1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item3 .pic2 {
+  position: absolute;
+  top: 22.4436rem;
+  left: 0.286667rem;
+  width: 2.05333rem;
+  height: 3.11037rem;
+}
+
+.item3 .pic2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item3 .icon {
+  position: absolute;
+  top: 22.4503rem;
+  left: 3.03333rem;
+  width: 1.48rem;
+  height: 0.30717rem;
+}
+
+.item3 .icon2 {
+  position: absolute;
+  top: 25.0103rem;
+  left: 0.48rem;
+  width: 1.73333rem;
+  height: 0.272381rem;
+}
+
+.item3 .text {
+  position: absolute;
+  top: 23.6861rem;
+  left: 1.87333rem;
+  width: 2.84rem;
+  background-color: transparent;
+  color: rgb(246, 201, 160);
+  letter-spacing: 0rem;
+  text-align: right;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  writing-mode: unset;
+  font-size: 0.173333rem;
+  font-family: FZLTHJW--GB1-0, PingFangSC-Regular, system-ui, "Segoe UI", Roboto, Emoji, Oxygen, Arial, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", -apple-system, "Microsoft Himalaya Local";
+  line-height: 2.6;
+  opacity: 1;
+}
+
+.item3 .pic3 {
+  position: absolute;
+  top: 26.9297rem;
+  left: 0.913333rem;
+  width: 3.25333rem;
+  height: 1.90048rem;
+}
+
+.item3 .pic3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item3 .bg2 {
+  position: absolute;
+  top: 26.5667rem;
+  opacity: 0.3;
+  left: 0.2rem;
+  width: 3.04rem;
+  height: 0.713659rem;
+  display: revert;
+  display: block;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://qnm.hunliji.com/FuLd_swjwyJdlvMgypDjh89Wmtqf);
+}
+
+.item3 .text-bottom {
+  position: absolute;
+  top: 29.2rem;
+  left: -0.493333rem;
+  width: 5.98657rem;
+  background-color: transparent;
+  color: rgb(246, 201, 160);
+  letter-spacing: 0.04rem;
+  transform: scale(0.58);
+  text-align: center;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  writing-mode: unset;
+  font-size: 0.16rem;
+  font-family: Cinzel-Regular, PingFangSC-Regular, system-ui, "Segoe UI", Roboto, Emoji, Oxygen, Arial, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", -apple-system, "Microsoft Himalaya Local";
+  line-height: 1.6;
+  opacity: 1;
+}
+
+.item3 {
+  padding-bottom: 1.2rem;
+}
+
+.item4 .pic {
+  position: absolute;
+  top: 30.3212rem;
+  left: -0.02rem;
+  width: 3.84rem;
+  height: 3.9168rem;
+}
+
+.item4 .pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item4 .text .content1,
+.item4 .text .content2 {
+  position: absolute;
+  top: 30.3467rem;
+  left: -0.0733333rem;
+  width: 0.62rem;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0rem;
+  text-align: center;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  writing-mode: unset;
+  font-size: 0.4rem;
+  font-family: FZFW-ZHENZTJF-L--GBK1-0, PingFangSC-Regular, system-ui, "Segoe UI", Roboto, Emoji, Oxygen, Arial, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", -apple-system, "Microsoft Himalaya Local";
+  line-height: 1.1;
+  opacity: 1;
+  white-space: pre-wrap;
+}
+
+.item4 .text .content2 {
+  position: absolute;
+  top: 31.8533rem;
+  left: 3.00667rem;
+  width: 0.62rem;
+}
+
+.item4 .bg {
+  position: absolute;
+  opacity: 0.6;
+  top: 30.1273rem;
+  left: 4.25333rem;
+  width: 0.68rem;
+  height: 3.93164rem;
+  display: block;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://qnm.hunliji.com/Fvh40N83aF4C-WM5B8Kh3ya6fygw);
+}
+
+.item4 .pic2 {
+  position: absolute;
+  top: 34.7176rem;
+  left: 0.0333333rem;
+  width: 2.06667rem;
+  height: 3.04259rem;
+}
+
+.item4 .pic2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item4 .pic3 {
+  position: absolute;
+  top: 36.7309rem;
+  left: 3.04667rem;
+  width: 1.94667rem;
+  height: 2.98052rem;
+}
+
+.item4 .pic3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item4 .text2 {
+  position: absolute;
+  top: 34.7515rem;
+  left: 2rem;
+  width: 2.83889rem;
+  background-color: transparent;
+  color: rgb(246, 201, 160);
+  letter-spacing: 0rem;
+  text-align: right;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  writing-mode: unset;
+  font-size: 0.173333rem;
+  font-family: FZLTHJW--GB1-0, PingFangSC-Regular, system-ui, "Segoe UI", Roboto, Emoji, Oxygen, Arial, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", -apple-system, "Microsoft Himalaya Local";
+  line-height: 2.6;
+  opacity: 1;
+}
+
+.item4 .bg2 {
+  position: absolute;
+  top: 37.7164rem;
+  left: 0.426667rem;
+  width: 2.90667rem;
+  height: 3.79512rem;
+  display: block;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://qnm.hunliji.com/FkTmxvHDF1NDtNcMb1xy77f5PfVS);
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.item4 .pic4 {
+  position: absolute;
+  top: 40.2824rem;
+  left: 0.686667rem;
+  width: 3.78667rem;
+  height: 2.50018rem;
+}
+
+.item4 .pic4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item4 .text-bottom {
+  position: absolute;
+  top: 43.3491rem;
+  left: 0.5rem;
+  width: 4rem;
+  height: 0.368rem;
+}
+.item4 {
+  height: 14rem;
+}
+
+.item5{
+  font-size: 0.2rem;
+  line-height: 0.4rem;
+  text-align: center;
+  color: rgb(246, 201, 160);
+  padding-bottom: 1rem;
+}
+
+.item5 .ok {
+  width: 2rem;
+  height: 0.4rem;
+  background-color: rgb(241, 29, 29);
+  color: #fff;
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 3px 5px;
+  margin-top: 1rem;
+  animation: scale 1s ease-in-out infinite;
+  font-size: 0.15rem;
+}
+
+@keyframes scale {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
